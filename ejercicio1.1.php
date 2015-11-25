@@ -18,6 +18,7 @@ empleando   el   comando  echo.  Tenga   en  cuenta   que   cuando  utiliza   el
 echo   el   mensaje   se   debe   encerrar   entre   comillas   dobles   (como   veremos   más
 adelante también podrá encerrarse entre simples comillas).*/
         echo "Hola Mundo";
+
         echo "Esto es PHP";
         ?>
     </body>
