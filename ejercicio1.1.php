@@ -11,6 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         
+        
         <?php
         /* Confeccione   un   programa   que   muestre   una   serie   de   mensajes   en   la   página
 empleando   el   comando  echo.  Tenga   en  cuenta   que   cuando  utiliza   el  comando
