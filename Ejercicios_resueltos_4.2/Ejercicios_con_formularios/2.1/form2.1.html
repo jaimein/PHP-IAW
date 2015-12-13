@@ -4,6 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+
 <html>
     <head>
         <title>Mayor o menor de edad</title>
@@ -11,11 +12,14 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <!--
+        Confeccionar un formulario que solicite la carga de un nombre de persona y su
+        edad, luego mostrar en otra página si es mayor de edad (si la edad es mayor o
+        igual a 18)
+        -->
         <form action="comp.php" method="post">
-            Nombre: <input value="nombre" name="nombre"><br>
-            <input type="radio" name="estudios" value="no tiene estudios">No tiene estudios<br>
-            <input type="radio" name="estudios" value="tiene estudios primarios">Tiene estudios primarios<br>
-            <input type="radio" name="estudios" value="tiene estudios secundarios">Tiene estudios secundarios<br>
+            Nombre: <input value="nombre" name="nombre">
+            Edad: <input type="text" value="Edad" name="edad">
             <input type="submit" value="Enviar">
         </form>
     </body>

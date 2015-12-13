@@ -14,9 +14,21 @@ and open the template in the editor.
         // put your code here
             
         $nombre=$_POST['nombre'];
-        $estudios=$_POST['estudios'];
         
-        echo "$nombre,  $estudios";
+        $cant=0;
+        if (isset($_REQUEST['basket'])){
+            $cant++;
+        }
+        if (isset($_REQUEST['futbol'])){
+            $cant++;
+        }
+        if (isset($_REQUEST['tenis'])){
+            $cant++;
+        }
+        if (isset($_REQUEST['voley'])){
+            $cant++;
+        }
+    echo "$nombre, practica este numero de deportes $cant";
             
         ?>
     </body>
