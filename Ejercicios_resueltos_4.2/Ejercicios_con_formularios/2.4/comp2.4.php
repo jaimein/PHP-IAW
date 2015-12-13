@@ -15,20 +15,9 @@ and open the template in the editor.
             
         $nombre=$_POST['nombre'];
         
-        $cant=0;
-        if (isset($_REQUEST['basket'])){
-            $cant++;
-        }
-        if (isset($_REQUEST['futbol'])){
-            $cant++;
-        }
-        if (isset($_REQUEST['tenis'])){
-            $cant++;
-        }
-        if (isset($_REQUEST['voley'])){
-            $cant++;
-        }
-    echo "$nombre, practica este numero de deportes $cant";
+        $sueldo=$_POST['sueldo'];
+        
+    echo "$nombre, recibe un salario entre $sueldo";
             
         ?>
     </body>

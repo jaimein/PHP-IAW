@@ -12,14 +12,20 @@ and open the template in the editor.
     </head>
     <body>
         <!--
-        Descripcion
+        Confeccionar un formulario que solicite el ingreso del nombre de una persona y
+un   combo   de   selección   (en   este   último   permitir   la   selección   de   los   ingresos
+mensuales de la persona: 1-1000,1001-3000,>3000) En la página que procesa el
+formulario mostrar un mensaje si debe pagar impuestos a las ganancias (si supera
+3000).
         -->
-        <form action="comp2.3.php" method="post">
+        <form action="comp2.4.php" method="post">
             Nombre: <input value="nombre" name="nombre"><br>
-            <input type="checkbox" name="basket" >Basket<br>
-            <input type="checkbox" name="futbol" >Futbol<br>
-            <input type="checkbox" name="tenis" >Tenis<br>
-            <input type="checkbox" name="voley" >Voley<br>
+            Selecione el rango de sus ingresos:
+            <select name="sueldo">
+                <option value="1-1000">1-1000</option>
+                <option value="1001-3000">1001-3000</option>
+                <option value="<3000"><3000</option>
+            </select>
             <input type="submit" value="Enviar">
         </form>
     </body>
