@@ -10,6 +10,8 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        <!-- Definir un vector con los nombres de los días de la semana. Luego imprimir el
+primero y el último elemento del vector-->
         <?php
         // Definicion de las variables
         $dias[1]="Lunes";
